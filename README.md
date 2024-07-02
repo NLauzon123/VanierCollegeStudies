@@ -1,5 +1,5 @@
 # Vanier College Studies
- Un échantillon de tâches accomplies au Cégep Vanier / A sample of assignments done at Vanier College
+ Un échantillon de tâches accomplies en tant qu'étudiant au Cégep Vanier / A sample of assignments done as a student at Vanier College
 
 ## 1. Concepts de programmation / Programming concepts
 * Synthèse des fondements de la programmation orientée-objet, tels composition, types génériques, héritage, et interface par le biais du développement d'une liste doublement liée (Driver.java). Application de concepts généraux, tels la lecture et écriture de fichiers (FileIOTests.java) et gestion des exceptions (ExceptionDemo.java et MyException.java).
