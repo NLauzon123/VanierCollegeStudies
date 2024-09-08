@@ -1,0 +1,149 @@
+body {
+	background-color: lightgray;
+}
+h2 {
+	font-family: "Times New Roman";
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 32px;
+}
+p {
+	font-family: "Times New Roman";
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+}
+#headBand {
+	width: 100%;
+	background-image: linear-gradient(to right, deepskyblue, blue, midnightblue);
+}
+#leftHeader {
+	width: 180px;
+	height: 180px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+}
+#rightTopHeader {
+	width: 100%;
+	font-family: "Times New Roman";
+	color: white;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 60px;
+	line-height: 1;
+    margin-left: 10px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+#RightBottomHeader {
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#button1, #button2, #button3, #button4, #button5 {
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Times New Roman";
+	color: white;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24px;
+	border: 5px solid white;
+	border-radius: 10px;
+	background: none;
+}
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover {
+	color: black;
+	background: gray;
+}
+#contentTitle {
+	font-family: "Times New Roman";
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 48px;
+	padding: 10px;
+}
+#imageFill {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#imageFillOverview {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#imageFillCredits {
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.tab {
+    width: 100%;
+    overflow: hidden;
+}
+.tab button {
+    background: lightgray;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: black;
+	font-family: "Times New Roman";
+    font-weight: bold;
+	border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.tab button:hover {
+    background: green;
+}
+.tab button.active {
+    background: darkgray;
+}
+.tabcontent {
+    background-color: lightgray;
+    width: 100%;
+    padding: 12px;
+    display: none;
+}
+.accordion {
+    font-family: "Times New Roman";
+    width: 100%;
+}
+.accordion-item {
+    margin-bottom: 10px;
+	background: lightgray;
+	border: none;
+}
+.accordion-title {
+	border-radius: 20px;
+    color: black;
+    background: lightgray;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 48px;
+	padding: 10px;
+    cursor: pointer;
+    transition: background 1s;
+}
+.accordion-content {
+    background: lightgray;
+    padding: 10px;
+    display: none;
+}
+.accordion-title:hover {
+    background: green;
+}
+.accordion-item.active .accordion-content {
+    display: block;
+}
